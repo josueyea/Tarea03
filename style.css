@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    border: 1px solid tomato;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(190, 190, 182, 0.795);
+}
+#cabecera{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#pie{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#content{
+    display: flex;
+    background-image: url(img/gris2.jpg);
+}
+#menu{
+    width: 20%;
+    margin: 5px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#boxes{
+    width: 80%;
+    margin: 5px;
+}
+#img,#text{
+    margin: 5px;
+    border: 1px solid blue;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#text{
+    background-color: rgb(178, 188, 197);
+    padding: 10px;
+}
+.logo{
+    margin: 10px;
+    padding: 0px;
+}
+.menu{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+hr{
+    border: 1px dotted tomato;
+    width: 75%;
+}
+h1{
+    background-color: rgb(110, 107, 148);
+    margin: 20px;
+    text-align: center;
+}
